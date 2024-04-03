@@ -1,0 +1,128 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>Frontend Mentor | Social links profile</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution { font-size: 11px; text-align: center; color: white; font-family: sans-serif; margin-top: 1rem;}
+      .attribution a { color: hsl(228, 45%, 44%); font-family: sans-serif;}
+      body{
+        background-color: hsl(0, 0%, 8%);
+      }
+
+      .content{
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem;
+        align-self: center;
+        text-align: center;
+      }
+      .box{
+        height: 34rem;
+        width: 22rem;
+        background-color: hsl(0, 0%, 12%);
+        display: flex;
+       align-items: top;
+        text-align: center;
+        justify-content: center;
+        border-radius: 1rem;
+
+
+
+
+      }
+      .avater{
+        width: 5rem;
+        height: 5em;
+        border-radius: 6rem;
+        position: absolute;
+        display: block;
+        top: 5rem;
+       
+       
+      }
+      .name{
+        font-family: "Inter", sans-serif;
+        color: white;
+        font-size: 20px;
+        position: relative;
+        top: 7rem;
+        height: 0;
+      }
+      .location{
+        position: absolute;
+        font-family: "Inter", sans-serif;
+        display: flex;
+        top: 12rem;
+        font-size: 10px;
+        color: hsl(75, 94%, 57%);
+        font-weight: 500;
+      }
+      .front{
+        position: absolute;
+        font-family: "Inter", sans-serif;
+        display: flex;
+        top: 14rem;
+        font-size: 12px;
+        width: 500;
+        color: white;
+      }
+      .buttons {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 17rem;
+    word-spacing: 10px;
+}
+
+.buttons button {
+    width: 16rem;
+    height: 3rem;
+    margin-bottom: 12px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    color: white;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 5px;
+    border: none;
+}
+.buttons:hover button:hover{
+  background-color: hsl(75, 94%, 57%);
+}
+    </style>
+  </head>
+  <body>
+  <div class="container">
+    <div class="content">
+      <div class="box">
+        <img src="assets/images/avatar-jessica.jpeg" alt="" class="avater">
+        <h1 class="name"> Jessica Randall</h1>
+        <h4 class="location"> London, United Kingdom</h4>
+        <h3 class="front">"Front-end developer and avid reader."</h3>
+        <div class="buttons">
+          <button>GitHub</button>
+          <button>Frontend Mentor</button>
+          <button>LinkedIn</button>
+          <button>Twitter</button>
+          <button> Instagram</button>
+
+
+        </div>
+      </div>
+  </div>
+  </div>
+    
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+  </html>
